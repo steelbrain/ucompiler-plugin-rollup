@@ -1,17 +1,17 @@
-UCompiler-Plugin-NewLine
+UCompiler-Plugin-RollUp
 ======================
 
-This plugin for ucompiler makes sure that your generated files always end with a new line.
+This plugin for rollup makes sure that your generated files always end with a new line.
 It also normalizes their EOLs to LF.
 
 
 #### How to Use
 
-Simply add "newline" to `plugins` field in your `.ucompilerrc`
+Simply add "rollup" to `plugins` field in your `.ucompilerrc`
 
 ```js
 {
-  plugins: ["newline"]
+  plugins: ["rollup"]
 }
 ```
 
