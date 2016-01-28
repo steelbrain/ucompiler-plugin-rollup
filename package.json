@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/steelbrain/ucompiler-plugin-newline/issues"
   },
-  "homepage": "https://github.com/steelbrain/ucompiler-plugin-newline#readme"
+  "homepage": "https://github.com/steelbrain/ucompiler-plugin-newline#readme",
+  "dependencies": {
+    "rollup": "^0.25.1"
+  }
 }
