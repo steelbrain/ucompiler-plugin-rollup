@@ -1,20 +1,13 @@
-UCompiler-Plugin-RollUp
-======================
+# UCompiler-Plugin-rollup
 
-This plugin for rollup makes sure that your generated files always end with a new line.
-It also normalizes their EOLs to LF.
+This is a rollup support package for UCompiler.
 
+## How to Use
 
-#### How to Use
+You first need to add `ucompiler-plugin-rollup` to your `devDependencies`
+within your `package.json`, then simply add "rollup" to the `plugins` field
+in your `.ucompiler` rule.
 
-Simply add "rollup" to `plugins` field in your `.ucompilerrc`
-
-```js
-{
-  plugins: ["rollup"]
-}
-```
-
-#### License
+## License
 
 This project is licensed under the terms of MIT License
