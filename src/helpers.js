@@ -3,6 +3,10 @@
 import Path from 'path'
 
 export function requireDependency(name, rootDirectory) {
+  if (name.indexOf('rollup-plugin-') === -1) {
+    name = 'rollup-plugin-' + name
+  }
+
   try {
     return require(Path.join(rootDirectory, 'node_modules', name))
   } catch (_) {}
