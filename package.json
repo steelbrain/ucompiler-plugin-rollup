@@ -1,6 +1,6 @@
 {
   "name": "ucompiler-plugin-rollup",
-  "version": "1.0.4",
+  "version": "3.0.0",
   "description": "Rollup support for UCompiler",
   "main": "lib/main.js",
   "jsnext:main": "src/main.js",
