@@ -5,7 +5,7 @@
   "main": "lib/main.js",
   "jsnext:main": "src/main.js",
   "devDependencies": {
-    "babel-preset-steelbrain": "^2.0.0"
+    "babel-preset-steelbrain": "^4.0.0"
   },
   "scripts": {
     "compile": "ucompiler go src"
