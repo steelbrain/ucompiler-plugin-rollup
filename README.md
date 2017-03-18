@@ -1,5 +1,7 @@
 # UCompiler-Plugin-rollup
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/steelbrain/ucompiler-plugin-rollup.svg)](https://greenkeeper.io/)
+
 This is a rollup support package for UCompiler.
 
 ## How to Use
